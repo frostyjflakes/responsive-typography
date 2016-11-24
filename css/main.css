@@ -29,7 +29,7 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
-  margin: 0;
+
 }
 
 article p {
@@ -79,7 +79,10 @@ article ol {
     padding: .4rem;
   }
 
-}
+  article h1,
+  article header {
+    margin: 0;
+  }
 
 @media only screen and (min-width: 38em) {
 
