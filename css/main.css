@@ -21,34 +21,41 @@ html {
 
 article {
   max-width: 43em;
-  margin: 1rem;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article h1 {
   font-weight: normal;
+  margin: 0;
 }
 
 article header {
   border-bottom: 1px solid #999;
-
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
 }
 
 article p {
   font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
 }
 
 article header p {
   font-style: italic;
-}
-
-article > p:last-child {
-  border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .quote {
@@ -61,6 +68,14 @@ body {
 
 article ol {
   margin: 0;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  padding-left: 1rem;
+}
+
+article > p:last-child {
+  border-bottom: 1px solid #999;
+  padding-bottom: 1.3rem;
 }
 
 @media only screen and (min-width: 38em) {
