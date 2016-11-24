@@ -12,7 +12,7 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
 }
 
 *, *::before, *::after {
@@ -29,6 +29,10 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
+}
+
+article p {
+
 }
 
 article header p {
@@ -50,10 +54,6 @@ blockquote {
 }
 
 body {
-
-}
-
-article p {
 
 }
 
