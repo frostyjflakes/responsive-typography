@@ -72,6 +72,10 @@ article ol {
     margin: 0 0 1.4rem;
   }
 
+  ol {
+    padding: .4rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
