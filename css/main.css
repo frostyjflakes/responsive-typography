@@ -31,10 +31,6 @@ article header {
   border-bottom: 1px solid #999;
 }
 
-article p {
-
-}
-
 article header p {
   font-style: italic;
 }
@@ -68,6 +64,10 @@ article ol {
     line-height: 1.4;
   }
 
+  article p {
+    margin: 0 0 1.4rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -77,13 +77,8 @@ article ol {
     line-height: 1.4;
   }
 
-}
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
+  article p {
+    margin: 0 0 1.4rem;
   }
 
 }
@@ -93,6 +88,23 @@ article ol {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  article p {
+    margin: 0 0 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  article p {
+    margin: 0 0 1.5rem;
   }
 
 }
