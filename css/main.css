@@ -24,6 +24,7 @@ article {
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 article h1 {
@@ -96,10 +97,6 @@ article > p:last-child {
   }
 
 }
-
-  article {
-    margin-bottom: 1rem;
-  }
 
 @media only screen and (min-width: 38em) {
 
