@@ -21,6 +21,7 @@ html {
 
 article {
   max-width: 43em;
+  margin: 1rem;
 }
 
 article h1 {
@@ -79,10 +80,7 @@ article ol {
     padding: .4rem;
   }
 
-  article h1,
-  article header {
-    margin: 0;
-  }
+}
 
 @media only screen and (min-width: 38em) {
 
